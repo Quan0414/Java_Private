@@ -1,6 +1,7 @@
 package buoi2;
 
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class bai1 {
     public static int tknp(int[] arr, int x) {
@@ -32,6 +33,6 @@ public class bai1 {
             arr[i] = sc.nextInt();
         }
         
-        System.out.println(tknp(arr, x));
+        System.out.println(Arrays.binarySearch(arr,x));
     }
 }
